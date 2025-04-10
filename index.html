@@ -23,6 +23,7 @@
       // 오픈카톡 링크 매핑: 작성자별 고정 링크
       const kakaoLinks = {
         writerM: "https://open.kakao.com/o/sLyyN9Lg",
+        Summer: "https://open.kakao.com/o/sbz0Wbqh",
         writerB: "https://open.kakao.com/o/sjYJo9bh",
         writerH: "https://open.kakao.com/o/sfYDn9bh"
       };
@@ -34,6 +35,8 @@
         kakaoLink = kakaoLinks.writerM;
       } else if (src.includes("writerB")) {
         kakaoLink = kakaoLinks.writerB;
+      } else if (src.includes("writerB")) {
+        kakaoLink = kakaoLinks.Summer;
       } else if (src.includes("writerH")) {
         kakaoLink = kakaoLinks.writerH;
       }
